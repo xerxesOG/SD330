@@ -1,0 +1,211 @@
+{
+    "courses": [
+      {
+        "course_id": "CMPT_330L",
+        "course_title": "Interactive Design",
+        "professor": "Andrew Tokash",
+        "semester": "Fall 2023",
+        "credits": 4,
+        "books": [
+          {
+            "title": "The Fundamentals of Interactive Design",
+            "author": "Michael Salmond",
+            "edition": "1st",
+            "isbn": "978-2940411854",
+            "publisher": "AVA Publishing"
+          },
+          {
+            "title": "A Project Guide to UX Design",
+            "author": "Russ Unger",
+            "edition": "2nd",
+            "isbn": "978-0321815385",
+            "publisher": "New Riders"
+          }
+        ]
+      },
+      {
+        "course_id": "DATA_300L",
+        "course_title": "Data Structures and Algorithms",
+        "professor": "Matthew A. Johnson",
+        "semester": "Spring 2023",
+        "credits": 3,
+        "books": [
+          {
+            "title": "Introduction to Algorithms",
+            "author": "Thomas H. Cormen",
+            "edition": "3rd",
+            "isbn": "978-0262033848",
+            "publisher": "The MIT Press"
+          },
+          {
+            "title": "Data Structures and Algorithm Analysis in C++",
+            "author": "Mark A. Weiss",
+            "edition": "4th",
+            "isbn": "978-0132847377",
+            "publisher": "Pearson"
+          }
+        ]
+      },
+      {
+        "course_id": "LIT_101",
+        "course_title": "Introduction to Literature",
+        "professor": "Dr. Emily Dickinson",
+        "semester": "Fall 2023",
+        "credits": 3,
+        "books": [
+          {
+            "title": "The Norton Anthology of Literature",
+            "author": "M. H. Abrams",
+            "edition": "11th",
+            "isbn": "978-0393912470",
+            "publisher": "W. W. Norton & Company"
+          },
+          {
+            "title": "How to Read Literature Like a Professor",
+            "author": "Thomas C Foster",
+            "edition": "2nd",
+            "isbn": "978-0062301673",
+            "publisher": "Harper Perennial"
+          }
+        ]
+      },
+      {
+        "course_id": "HIST_210",
+        "course_title": "World History",
+        "professor": "Dr. Howard Zinn",
+        "semester": "Spring 2023",
+        "credits": 3,
+        "books": [
+          {
+            "title": "A People's History of the World",
+            "author": "Chris Harman",
+            "edition": "Revised",
+            "isbn": "978-1786630810",
+            "publisher": "Verso"
+          },
+          {
+            "title": "Guns, Germs, and Steel",
+            "author": "Jared Diamond",
+            "edition": "20th Anniversary",
+            "isbn": "978-0393354324",
+            "publisher": "Norton & Company"
+          }
+        ]
+      },
+      {
+        "course_id": "PHIL_305",
+        "course_title": "Ethics and Morality",
+        "professor": "Dr. Immanuel Kant",
+        "semester": "Summer 2023",
+        "credits": 3,
+        "books": [
+          {
+            "title": "Ethics: Essential Readings in Moral Theory",
+            "author": "George Sher",
+            "edition": "3rd",
+            "isbn": "978-0415782319",
+            "publisher": "Routledge"
+          },
+          {
+            "title": "The Fundamentals of Ethics",
+            "author": "Russ Shafer-Landau",
+            "edition": "4th",
+            "isbn": "978-0190631390",
+            "publisher": "Oxford University Press"
+          }
+        ]
+      },
+      {
+        "course_id": "PSYCH_101",
+        "course_title": "Introduction to Psychology",
+        "professor": "Dr. Sigmund Freud",
+        "semester": "Fall 2023",
+        "credits": 3,
+        "books": [
+          {
+            "title": "Psychology: Themes and Variations",
+            "author": "Wayne Weiten",
+            "edition": "10th",
+            "isbn": "978-1305498204",
+            "publisher": "Cengage Learning"
+          },
+          {
+            "title": "Thinking, Fast and Slow",
+            "author": "Daniel Kahneman",
+            "edition": "1st",
+            "isbn": "978-0374533557",
+            "publisher": "Farrar, Straus and Giroux"
+          }
+        ]
+      },
+      {
+        "course_id": "ECON_200",
+        "course_title": "Principles of Economics",
+        "professor": "Dr. Adam Smith",
+        "semester": "Spring 2023",
+        "credits": 3,
+        "books": [
+          {
+            "title": "Economics",
+            "author": "Paul Krugman",
+            "edition": "5th",
+            "isbn": "978-1319066604",
+            "publisher": "Worth Publishers"
+          },
+          {
+            "title": "Basic Economics",
+            "author": "Thomas Sowell",
+            "edition": "5th",
+            "isbn": "978-0465060733",
+            "publisher": "Basic Books"
+          }
+        ]
+      },
+      {
+        "course_id": "MATH_350",
+        "course_title": "Advanced Calculus",
+        "professor": "Dr. Leonhard Euler",
+        "semester": "Winter 2023",
+        "credits": 4,
+        "books": [
+          {
+            "title": "Calculus: Early Transcendentals",
+            "author": "James Stewart",
+            "edition": "8th",
+            "isbn": "978-1285741550",
+            "publisher": "Cengage Learning"
+          },
+          {
+            "title": "Advanced Calculus",
+            "author": "Patrick M. Fitzpatrick",
+            "edition": "2nd",
+            "isbn": "978-0821847916",
+            "publisher": "American Mathematical Society"
+          }
+        ]
+      },
+      {
+        "course_id": "COMPSCI_101",
+        "course_title": "Introduction to Computer Science",
+        "professor": "Dr. Alan Turing",
+        "semester": "Fall 2023",
+        "credits": 4,
+        "books": [
+          {
+            "title": "Computer Science Illuminated",
+            "author": "Nell Dale",
+            "edition": "7th",
+            "isbn": "978-1284155617",
+            "publisher": "Jones & Bartlett Learning"
+          },
+          {
+            "title": "The Art of Computer Programming",
+            "author": "Donald Knuth",
+            "edition": "Volume 1",
+            "isbn": "978-0201896831",
+            "publisher": "Addison-Wesley Professional"
+          }
+        ]
+      }
+    ]
+  }
