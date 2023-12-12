@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FoxBooks - Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="foxbooks.html">
+                    <img src="C:\Users\Owner\OneDrive\foxlogo.png" width="50px" alt="FoxBook Logo" />
+                </a>
+            </div>
+            <ul>
+                <li><a href="foxbooks.html">Home</a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="404.html">About Us</a></li>
+                <li><a href="404.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="breadcrumbs">
+            <a href="foxbooks.html">Home</a> > <a href="Courses.html">Courses</a>
+        </div>
+    </header>
+
+    <main>
+        <h1 style="margin-left: 20px;">Current Courses:</h1>
+        <ul id="coursesList">
+            <!-- Courses will be loaded here -->
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; Bryan BuduSmith-Otoo - 2023 FoxBooks.</p>
+        <p><a href="404.html">Terms of Service</a> | <a href="404.html">Privacy Policy</a></p>
+    </footer>
+
+    <script>
+        // Function to load the JSON file and display the courses
+        const fetchData = async () => {
+            try {
+                const response = await fetch('https://github.com/xerxesOG/SD330/blob/main/foxbooks.json');
+                const data = await response.json();
+                const coursesList = document.getElementById('coursesList');
+                let coursesHtml = '';
+
+                data.courses.forEach(course => {
+                    coursesHtml += `<li>
+                            <h3><a href="books.html?CourseID=${course.course_id}">${course.course_title}</a></h3>
+                            <p><strong>Course ID:</strong> ${course.course_id}</p>
+                            <p><strong>Professor:</strong> ${course.professor}</p>
+                            <p><strong>Semester:</strong> ${course.semester}</p>
+                            <p><strong>Credits:</strong> ${course.credits}</p>
+                          </li>`;
+                });
+
+                coursesList.innerHTML = coursesHtml;
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchData();
+    </script>
+
+</body>
+
+</html>
