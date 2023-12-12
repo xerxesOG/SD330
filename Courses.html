@@ -43,7 +43,7 @@
         // Function to load the JSON file and display the courses
         const fetchData = async () => {
             try {
-                const response = await fetch('https://github.com/xerxesOG/SD330/blob/main/foxbooks.json');
+                const response = await fetch('./foxbooks.json');
                 const data = await response.json();
                 const coursesList = document.getElementById('coursesList');
                 let coursesHtml = '';
